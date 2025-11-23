@@ -4,7 +4,7 @@
 학번: 20214909
 이름: 백새하
 
-- top
+**top
 의미: 리눅스 시스템의 CPU, 메모리 사용량 등 전반적인 상황을 실시간으로 모니터링할 수 있는 명령어
 
 
@@ -14,35 +14,18 @@ Mem: 물리적 메모리 사용량
 Swap: 스왑 메모리 사용량
 <img width="566" height="157" alt="스크린샷 2025-11-23 13 30 52" src="https://github.com/user-attachments/assets/1754f2c8-3404-45e0-8af1-159ef3c5cadc" />
 
-<실행결과>
-top - 04:03:00 up 37 min,  0 users,  load average: 0.19, 0.34, 0.22
-Tasks:   2 total,   1 running,   1 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  0.3 us,  0.1 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   3919.4 total,   3283.5 free,    361.0 used,    274.9 buff/cache
-MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3425.6 avail Mem
 
-  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-    1 root      20   0    4116   2672   2544 S   0.0   0.1   0:00.02 bash
-   12 root      20   0    6700   2664   2280 R   0.0   0.1   0:00.08 top
-
-
-
-- ps
+**ps
 의미: 현재 실행 중인 프로세스와 상태를 출력하는 명령어
 
 <옵션>
 ps -e: 현재 사용자뿐만 아니라 다른 사용자들이 구동시킨 모든 프로세스를 보여줌
 ps -f: 프로세스 간 상속관계를 트리형식으로 보여줌
 ps -l: -f보다 더 자세한 정보 보여줌
+<img width="209" height="70" alt="스크린샷 2025-11-23 13 34 18" src="https://github.com/user-attachments/assets/84c16e1c-0627-4f1c-8164-23e47516882d" />
 
 
-<실행결과>
-root@2ddbc55ae093:/# ps
-  PID TTY          TIME CMD
-    1 pts/0    00:00:00 bash
-    9 pts/0    00:00:00 ps
-
-- jobs
+**jobs
 의미: 현재 쉘 세션에서 실행 중이거나 일시 중지된 작업을 확인할 때 사용하는 명령어
 
 <옵션>
@@ -58,7 +41,7 @@ Done: 작업이 완료되어 0으로 반환하고 종료
 Stopped: 작업이 일시 중단됨
 
 
-- kill
+**kill
 의미: 특정 프로세스나 프로세스 그룹에 시그널을 보내 프로세스를 종료하는 데 사용하는 명령어
 
 <옵션>
