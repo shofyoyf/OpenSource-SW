@@ -22,6 +22,8 @@ Swap: 스왑 메모리 사용량
 ps -e: 현재 사용자뿐만 아니라 다른 사용자들이 구동시킨 모든 프로세스를 보여줌
 ps -f: 프로세스 간 상속관계를 트리형식으로 보여줌
 ps -l: -f보다 더 자세한 정보 보여줌
+
+
 <img width="209" height="70" alt="스크린샷 2025-11-23 13 34 18" src="https://github.com/user-attachments/assets/84c16e1c-0627-4f1c-8164-23e47516882d" />
 
 
