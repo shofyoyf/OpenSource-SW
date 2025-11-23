@@ -9,9 +9,17 @@
 
 
 Tasks: 현재 실행 중인 프로세스 수
+
+
 CPU(s): CPU 사용률
+
+
 Mem: 물리적 메모리 사용량
+
+
 Swap: 스왑 메모리 사용량
+
+
 <img width="566" height="157" alt="스크린샷 2025-11-23 13 30 52" src="https://github.com/user-attachments/assets/1754f2c8-3404-45e0-8af1-159ef3c5cadc" />
 
 
